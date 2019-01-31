@@ -22,7 +22,7 @@ module.exports = router;
  */
 
 router.get('/detail',(req,res)=>{
-
+res.send('GET product/detail');
 });
 
 /**
