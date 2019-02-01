@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+<h3>新闻列表</h3>
+    <ul>
+        <li v-for="n in pager.data"><a :href="n.nid" @click.prevent="print(n.nid)" >{{n.title}}</a></li>
+    </ul>
+    <hr>
+    <ul>
+        <li v-if="(pager.pageNum ===1)?disabled:false"><a href="">上一页</a></li>
+        <li v-if="pager.pageNum-2>0"><a>{{pager.pageNum-2}}</a></li>
+        <li v-if="pager.pageNum -1>0"><a>{{pager.pageNum-1}}</a></li>
+        <li>{{pager.pageNum}}</li>
+        <li v-if="pager.pageNum +1<=pager.pageCount"><a>{{pager.pageNum+1}}</a></li>
+        <li v-if="pager.pageNum +2<=pager.pageCount"><a>{{pager.pageNum+2}}</a></li>
+    </ul>
+</div>
+<script src="js/vue.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#app',
+        data:{
+            pager:{
+                totalRecord:24,
+                pageSize:5,
+                pageCount:5,
+                pageNum:4,
+                data:[
+                    {nid:10,title:'新闻标题1'},
+                    {nid:20,title:'新闻标题2'},
+                    {nid:30,title:'新闻标题3'},
+                ]
+            }
+        },
+        methods:{
+            print:function (nid) { //VM中的方法可以访问Model
+                console.log(nid);
+
+            }
+        }
+    })
+</script>
+</body>
+</html>

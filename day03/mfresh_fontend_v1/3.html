@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>异步获取服务器端动态数据</h3>
+<hr>
+<div id="app">
+
+    <ul>
+        <li v-for="n in pager.data">{{n.title}}-{{n.pubTime | mydate}}</li>
+    </ul>
+    <hr>
+    <ul>
+        <li><a href="#" @click.prevent="loadPager(pager.pageNum-2)">{{pager.pageNum-2}}</a></li>
+        <li><a href="#" @click.prevent="loadPager(pager.pageNum-1)">{{pager.pageNum-1}}</a></li>
+        <li>{{pager.pageNum}}</li>
+        <li><a href="#" @click.prevent="loadPager(pager.pageNum+1)">{{pager.pageNum+1}}</a></li>
+        <li><a href="#" @click.prevent="loadPager(pager.pageNum+2)">{{pager.pageNum+2}}</a></li>
+    </ul>
+    
+</div>
+<script src="js/vue.js"></script>
+<script src="js/vue-resource-1.5.0.min.js"></script>
+<script>
+    //定义全局过滤器
+    Vue.filter('mydate',function (num) {
+       var d= new Date(num);
+       return d.getFullYear()+'-'+d.getMonth()+'-'+d.getDate()+' '+ d.getHours()+':'+d.getMinutes();
+    });
+    new Vue({
+        el:'#app',
+        data:{
+            pager:{
+
+            }
+        },
+        mounted:function () {
+            //异步请求服务器端动态数据
+            this.loadPager(1);
+        },
+        methods:{
+            loadPager:function (pno) {
+                console.log(pno);
+                let url='http://127.0.0.1:8080/news/select?pageNum='+pno;
+                this.$http.get(url).then(function (res) {
+                    this.pager =res.body; //this值得是VM对象
+                })
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <app-header></app-header>
+    <h3>组件式web开发</h3>
+    <app-center></app-center>
+    <app-footer></app-footer>
+</div>
+<template id="template-footer">
+    <div>
+    <hr/>
+    <hr/>
+    <p>版权声明</p>
+    <p>京ICP</p>
+    </div>
+</template>
+<script src="js/vue.js"></script>
+<script>
+    //定义全局组件
+    Vue.component('app-header',{
+       template:`<div><h2>净美仕空气净化器</h2><hr><p>购物车{{productCount}}</p></div>`,
+        data:function () {
+            return {
+                productCount:3
+            }
+        },
+        methods:{}
+    });
+    Vue.component('app-footer',{
+        template: '#template-footer'
+    });
+    var bc = Vue.component('bread-crumb',{
+        template:`<div>当前位置：首页->关于我们</div>`
+    });
+    var pm = Vue.component('page-main',{
+       template:`<div>这里是页面中的主体部分</div>`
+    });
+    Vue.component('app-center',{
+        components:{  //当前组件内部的子组件
+            'my-bread-crumb':bc,
+            'my-page-main':pm
+        },
+        template:`<div>
+                    <my-bread-crumb></my-bread-crumb>
+                    <my-page-main/>
+                    <my-bread-crumb/>
+                  </div>`
+    });
+    new Vue({
+        el:'#app',
+        data:{
+            // productCount:3
+        }
+    })
+</script>
+</body>
+</html>

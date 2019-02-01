@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>在客户端使用Vue.js</h3>
+<!--View区域-->
+<div id="app">
+<h4>欢迎来到：{{companyName}}</h4>
+    <p>{{newsTitles}}</p>
+    <ul>
+        <li v-for="n in newsTitles">{{n}}</li>
+    </ul>
+</div>
+
+<script src="js/vue.js"></script>
+<script>
+    var vm = new Vue({ //ViewModel对象
+        el:'#app',
+        data:{   //Model对象
+            companyName:'净美仕',
+            newsTitles:['新闻标题1','新闻标题2','新闻标题3']
+        }
+
+    })
+</script>
+</body>
+</html>
