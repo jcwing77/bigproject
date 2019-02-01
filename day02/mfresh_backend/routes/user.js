@@ -17,8 +17,19 @@ module.exports = router;
  * 或
  * {"code":2,"msg":"non-exist"}
  */
-router.get('./check/phone',(req,res)=>{
-res.send('GET/user/check/phone');
+router.get('/check/phone/',(req,res)=>{
+
+    let phone = req.query.phone;
+   let sql =  `SELECT * FROM mf_user WHERE phone=?`;
+   pool.query(sql,[phone],(err,result)=>{
+      if(err) throw err;
+     if (result.length >0){
+        res.send({"code":1,"msg":"exist"});
+     } else {
+        res.send({"code":2,"msg":"non-exist"});
+     }
+   });
+
 });
 
 /**
@@ -31,7 +42,17 @@ res.send('GET/user/check/phone');
  * {"code":2,"msg":"non-exist"}  不存在
  */
 router.get('/check/uname',(req,res)=>{
-   res.send('GET/user/check/uname...');
+    let uname = req.query.uname;
+    let sql =  `SELECT * FROM mf_user WHERE uname=?`;
+    pool.query(sql,[uname],(err,result)=>{
+        if(err) throw err;
+        if (result.length >0){
+            res.send({"code":1,"msg":"exist"});
+        } else {
+            res.send({"code":2,"msg":"non-exist"});
+        }
+    });
+
 });
 /**
  *用户登录验证
@@ -44,7 +65,17 @@ router.get('/check/uname',(req,res)=>{
  * {"code":400}
  */
 router.get('/login',(req,res)=>{
-   res.send('GET/user/login....')
+    let unameOrPhone = req.query.unameOrPhone;
+    let sql =  `SELECT uid,uname,phone FROM mf_user WHERE (uname=? AND upwd=?) OR (phone=? AND upwd=?)`;
+    pool.query(sql,[phone],(err,result)=>{
+        if(err) throw err;
+        if (result.length >0){
+            res.send({"code":1,"msg":"exist"});
+        } else {
+            res.send({"code":2,"msg":"non-exist"});
+        }
+    });
+
 });
 /**
  *注册新用户
