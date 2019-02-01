@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8ec7c2f-5087-424d-b611-f80f2c979877" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/bigproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/day03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mfresh_fontend_v1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mfresh_frontend_v2_VueJS项目空模板.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/iweb-html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../iweb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/mfresh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/4/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/5/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/5/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/node_modules/6/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mfresh_backend/static/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/ULift_Ionic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/app/ulift.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/app/ulift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/css/ionic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/css/ionic.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/iconlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/ind_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/ind_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/logo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/logo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/start_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/text_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/text_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-house/01-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-jingjiren/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-jingjiren/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-jingjiren/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-jingjiren/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/h1_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/h2_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/img-news/h2_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular-ui/angular-ui-router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular-ui/angular-ui-router.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-resource.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-sanitize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular-sanitize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/angular/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic-angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic-angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/js/ionic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/m_city.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/area_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/area_list_sub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/favorite_addOrDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/favorite_select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/favorite_zf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/jingjiren_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/jingjiren_dianpu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/jingjiren_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/news_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/news_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_changepwd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_check_phone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_oldpwd_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_personal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/user_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/zf_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/php/zf_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/sql/ulift.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/advertise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/include/footer_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/include/header_all.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/include/header_back.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/start.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift-m/tpl/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/ulift04-ajax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/css/mycss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/dianpu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/iconlist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/ind_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/ind_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/logo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/logo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/text_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/text_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-house/01-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-jingjiren/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-jingjiren/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-jingjiren/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-jingjiren/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/h1_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/h2_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/img-news/h2_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/jingjiren.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/dianpu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/jingjiren.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/news.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/news_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/zf_details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/js/zf_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/news_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/area_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/area_list_sub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/favorite_addOrDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/favorite_select.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/favorite_zf.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/init.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/jingjiren_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/jingjiren_dianpu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/jingjiren_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/news_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/news_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_changepwd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_check_phone.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_oldpwd_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_personal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/user_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/zf_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/php/zf_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/sql/ulift.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/user_changepwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/user_favorite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/user_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/user/user_personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/zf_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ulift/zf_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iweb-m/js/ionic.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../iweb-m/js/ionic.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../iweb-m/js/ionic.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../iweb-m/js/ionic.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mfresh-m/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mfresh-m/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mfresh-m/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../iweb/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mfresh-m/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../mfresh-m/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mfresh-m/app/mrefresh.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../mfresh-m/app/mrefresh.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-159940049">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="5" />
+          <entry key="js" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="2506" />
+          <entry key="txt" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="2506" />
+          <entry key="PLAIN_TEXT" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/vue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1.html" />
+        <option value="$PROJECT_DIR$/2.html" />
+        <option value="$PROJECT_DIR$/3.html" />
+        <option value="$PROJECT_DIR$/4.html" />
+        <option value="$PROJECT_DIR$/5.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="913" />
+    <option name="y" value="18" />
+    <option name="width" value="1008" />
+    <option name="height" value="941" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mfresh_fontend_v1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mfresh_fontend_v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mfresh_frontend_v2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\bigproject\day03\mfresh_fontend_v1\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8ec7c2f-5087-424d-b611-f80f2c979877" name="Default Changelist" comment="" />
+      <created>1548986444805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548986444805</updated>
+      <workItem from="1548986446329" duration="13761000" />
+    </task>
+    <task id="LOCAL-00001" summary="mfresh_fontend_v1">
+      <created>1549016166769</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549016166769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13761000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="913" y="18" width="1008" height="941" extended-state="0" />
+    <layout>
+      <window_info id="Project Explorer" />
+      <window_info id="Job Explorer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13104838" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Console" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mfresh_fontend_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="mfresh_fontend_v1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vue-resource-1.5.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="3848" selection-start-line="6" selection-start-column="3848" selection-end-line="6" selection-end-column="3848" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="52" lean-forward="true" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+{
+  "name": "mfresh_backend",
+  "version": "1.0.0",
+  "description": "mfresh node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfresh_backend.git"
+  },
+  "keywords": [
+    "mefresh",
+    "node",
+    "vuejs"
+  ],
+  "author": "jcwing",
+  "license": "ISC"
+}
