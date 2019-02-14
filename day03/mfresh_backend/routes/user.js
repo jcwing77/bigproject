@@ -65,14 +65,20 @@ router.get('/check/uname',(req,res)=>{
  * {"code":400}
  */
 router.get('/login',(req,res)=>{
-    let unameOrPhone = req.query.unameOrPhone;
-    let sql =  `SELECT uid,uname,phone FROM mf_user WHERE (uname=? AND upwd=?) OR (phone=? AND upwd=?)`;
-    pool.query(sql,[phone],(err,result)=>{
+
+    let uname = req.query.uname;
+    // console.log(uname);
+     // res.send(req);
+    let upwd = req.query.upwd;
+    let sql =  `SELECT uid,uname,phone,upwd FROM mf_user WHERE uname=? AND upwd=?`;
+    pool.query(sql,[uname,upwd],(err,result)=>{
         if(err) throw err;
+        // console.log(result);
         if (result.length >0){
-            res.send({"code":1,"msg":"exist"});
+            // res.send({"code":200});
+            res.send({"code":200,"uid":result[0].uid,"uname":result[0].uname,"upwd":result[0].upwd,"phone":result[0].phone});
         } else {
-            res.send({"code":2,"msg":"non-exist"});
+            res.send({"code":400});
         }
     });
 
@@ -90,4 +96,7 @@ router.get('/login',(req,res)=>{
  */
 router.post('/register',(req,res)=>{
    res.send('Post /user/register....');
+   // let uname=req.query.uname;
+   // let upwd= req.query.
+
 });

@@ -29,3 +29,5 @@ app.use('/news',require('./routes/news'));
 app.use('/product',require('./routes/product'));
 app.use('/user',require('./routes/user'));
 app.use('/cart',require('./routes/cart'));
+
+

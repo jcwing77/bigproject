@@ -31,10 +31,16 @@ router.get('/select',(req,res)=>{
     }else {
        pageNum = parseInt(pageNum);
     }
+    let pageSize = req.query.pageSize;
+    if(!pageSize){
+        pageSize = 4;
+    }else {
+        pageSize = parseInt(pageSize);
+    }
 
    let  pager = {// 要输出给客户端分页器对象
        totalRecord: 0,
-       pageSize: 5,
+       pageSize,
        pageCount: 0,
        pageNum,
        data:[]
@@ -81,10 +87,11 @@ router.get('/select',(req,res)=>{
  *}
  */
 
-router.get('/detail/:nid',(req,res)=>{
+router.get('/newsdetail/:nid',(req,res)=>{
    // /news/detail?nid=5      req.query.nid
     //  /news/detail/5        req.params.nid
     let nid = req.params.nid;
+    // console.log(nid);
     let sql ="SELECT * FROM mf_news WHERE nid=?";
     pool.query(sql,[nid],(err,result)=>{
        if(err) throw err;

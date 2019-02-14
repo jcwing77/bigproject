@@ -1,10 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/Index'
-import About from '@/components/About'
-import Contact from '@/components/Contact'
-import News from '@/components/News'
-import Product from '@/components/Product'
+import Index from '../components/Index'
+import Login from '../components/Login'
+import About from '../components/About'
+import Contact from '../components/Contact'
+import News from '../components/News'
+import NewsDetail from '../components/NewsDetail'
+import Product from '../components/Product'
+import ProductDetail from '../components/ProductDetail'
+
+
 
 Vue.use(Router)
 
@@ -15,6 +20,10 @@ export default new Router({
       component: Index
     },
     {
+      path: '/login',
+      component:Login
+    },
+    {
       path: '/about',
       component: About
     }, {
@@ -23,10 +32,19 @@ export default new Router({
     },
     {
       path: '/news',
-      component: News
-    }, {
+      component: News,
+    },
+    {
+      path: '/newsdetail/:num',
+      component: NewsDetail,
+    },
+    {
       path: '/product',
-      component:Product
+      component:Product,
+    },
+    {
+      path: '/productdetail/:num',
+      component: ProductDetail,
     }
   ]
 })

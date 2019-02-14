@@ -12,21 +12,21 @@
   <div class="main container">
     <div class="news">
       <ul>
-        <!--<li><span>2016-02-21</span><a href="">空气净化器要逆天？ “玫瑰金”“土豪金”齐上阵</a></li>-->
-        <!--<li><span>2016-02-21</span><a href="">净美仕新风净化系统　助力校园新风行动</a></li>-->
-        <!--<li><span>2016-02-21</span><a href="">全国新风行动全面启动 助推净美仕战略升级</a></li>-->
-        <!--<li><span>2016-02-21</span><a href="">智能空气净化器翻盘：净美仕能否领衔?</a></li>-->
+        <li v-for="n in newsList.data"><span>{{n.pubTime | mydate}}</span>
+          <!--<router-link :to="'/news/newsdetail/'+n.nid"  >{{n.title}}</router-link>-->
+          <router-link  :to="'/newsdetail/'+n.nid">{{n.title}}</router-link>
+        </li>
       </ul>
     </div>
     <!-- 分页导航-->
     <div class="pages">
-      <!--<a href="" class="">上一页</a>-->
-      <!--<a href="" class="cur">1</a>-->
-      <!--<a href="">2</a>-->
-      <!--<a href="">3</a>-->
-      <!--<a href="">4</a>-->
-      <!--<a href="">5</a>-->
-      <!--<a href="">下一页</a>-->
+     <a  v-if="newsList.pageNum>1" @click.prevent="loadNews(newsList.pageNum-1,newsList.pageSize)">上一页</a>
+      <a  v-if="newsList.pageNum-2>=1"  @click.prevent="loadNews(newsList.pageNum-2,newsList.pageSize)">{{newsList.pageNum-2}}</a>
+    <a v-if="newsList.pageNum-1>=1" @click.prevent="loadNews(newsList.pageNum-1,newsList.pageSize)">{{newsList.pageNum-1}}</a>
+      <a  class="cur">{{newsList.pageNum}}</a>
+      <a  v-if="newsList.pageNum<=newsList.pageCount-1"  @click.prevent="loadNews(newsList.pageNum+1,newsList.pageSize)">{{newsList.pageNum+1}}</a>
+      <a v-if="newsList.pageNum<=newsList.pageCount-2"  @click.prevent="loadNews(newsList.pageNum+2,newsList.pageSize)">{{newsList.pageNum+2}}</a>
+      <a v-if="newsList.pageNum<newsList.pageCount"  @click.prevent="loadNews(newsList.pageNum+1,newsList.pageSize)">下一页</a>
     </div>
   </div>
 </div>
@@ -34,7 +34,25 @@
 
 <script>
 export default {
+data:function () {
+  return {
+    newsList:{//首页获取新闻列表信息
+    }
+  }
+},
+  mounted:function(){
+    this.loadNews(1,10);
+  },
+  methods: {
+    loadNews:function (pno,pageSize) {
 
+      let url='http://127.0.0.1:8080/news/select?pageNum='+pno+'&pageSize='+pageSize;
+      this.$http.get(url).then(function (res) {
+        this.newsList =res.body; //this值得是VM对象
+
+      })
+    },
+  }
 }
 </script>
 
