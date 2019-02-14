@@ -13,6 +13,7 @@
         .nav li{
             display: inline-block;
             padding:10px 20px;
+            transition: all .3s linear;
         }
         .nav li.active{
             background:#ee0;
@@ -32,15 +33,21 @@
 </head>
 <body>
 <ul class="nav">
-    <li class="active"><a href="#">首页</a></li>
+    <li><a href="#">首页</a></li>
     <li><a href="#">订票</a></li>
     <li><a href="#">影院</a></li>
     <li><a href="#">动态</a></li>
 </ul>
 <script>
     var liList = document.querySelectorAll('.nav li');
-    for(var i=0;i<liList;i++){
-        var li
+    for(var i=0;i<liList.length;i++){
+        var li=liList[i];
+        li.onmouseenter=function () {
+          this.className='active'
+        }
+        li.onmouseleave=function () {
+            this.className=''
+        }
     }
 </script>
 </body>
