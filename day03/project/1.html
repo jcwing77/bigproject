@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .form-control{
+            padding: 6px;
+            border: 1px solid #aaa;
+            border-radius:3px ;
+            box-shadow: 0 0 5px #aaa;
+            outline: none;
+            transition: all .15s linear;
+        }
+        .form-control.active{
+            border-color: #38f;
+            box-shadow: 0 0 5px #38f;
+        }
+    </style>
+</head>
+<body>
+<h1>使用JS控制Transition动画</h1>
+<input class="form-control" id="kw">
+<script>
+    kw.onfocus = function () {
+        this.className = 'form-control active';
+    }
+    kw.onblur = function () {
+        this.className = 'form-control';
+    }
+</script>
+</body>
+</html>
