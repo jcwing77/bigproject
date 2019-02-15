@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13701acf-0ee0-46a3-b448-7da0dc5e9fe7" name="Default Changelist" comment="project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/3.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/3.html" afterDir="false" />
-    </list>
+    <list default="true" id="13701acf-0ee0-46a3-b448-7da0dc5e9fe7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,7 +15,7 @@
     <session id="703442904">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
@@ -56,7 +52,7 @@
           <entry key="html" value="856" />
           <entry key="js" value="2408" />
           <entry key="json" value="1" />
-          <entry key="txt" value="25" />
+          <entry key="txt" value="37" />
           <entry key="vue" value="2382" />
         </counts>
       </usages-collector>
@@ -65,7 +61,7 @@
           <entry key="HTML" value="856" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="2408" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="PLAIN_TEXT" value="37" />
           <entry key="Vue.js" value="2382" />
         </counts>
       </usages-collector>
@@ -108,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="130">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -285,7 +281,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../boot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -334,7 +330,7 @@
       <workItem from="1549932705344" duration="38408000" />
       <workItem from="1550019954466" duration="24687000" />
       <workItem from="1550105406004" duration="2049000" />
-      <workItem from="1550108047579" duration="6018000" />
+      <workItem from="1550108047579" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="day02">
       <created>1548986536878</created>
@@ -364,15 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550115881052</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project 2html 3html">
+      <created>1550116708491</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550116708491</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82226000" />
+    <option name="totallyTimeSpent" value="82702000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="822" y="174" width="1130" height="866" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26929983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -408,7 +410,8 @@
     <MESSAGE value="mfresh" />
     <MESSAGE value="project 3html" />
     <MESSAGE value="project" />
-    <option name="LAST_COMMIT_MESSAGE" value="project" />
+    <MESSAGE value="project 2html 3html" />
+    <option name="LAST_COMMIT_MESSAGE" value="project 2html 3html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mfresh_backend/routes/product.js">
@@ -704,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="130">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
